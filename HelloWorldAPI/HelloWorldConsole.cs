@@ -9,11 +9,19 @@ namespace HelloWorldAPI
             get;set;
         }
 
+        /// <summary>
+        /// Get message
+        /// </summary>
+        /// <returns></returns>
         public string getMessage()
         {
-            return "Hello World!  This is console.  Is there anybody out there?";
+            return HelloWorldConstants.ConsoleResponse;
         }
 
+        /// <summary>
+        /// Write a message
+        /// </summary>
+        /// <param name="value"></param>
         public void writeMessage(string value)
         {
             throw new NotImplementedException();

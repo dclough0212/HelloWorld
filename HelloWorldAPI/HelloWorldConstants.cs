@@ -15,5 +15,8 @@ namespace HelloWorldAPI
             Mobile,
             WebService
         }
+
+        public const string ConsoleResponse = "Hello from console.";
+
     }
 }
